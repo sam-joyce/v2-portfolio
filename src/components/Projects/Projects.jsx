@@ -23,10 +23,10 @@ const Projects = () => {
             <span>Calendly</span>
           </div>
           <div className={styles.links}>
-            <a href="http://" target="__blank">
+            <a href="https://github.com/sam-joyce/fine-tune" target="__blank">
               <GrGithub />
             </a>
-            <a href="http://" target="__blank">
+            <a href="https://finetunefootball.com/" target="__blank">
               <MdLaunch />
             </a>
           </div>
@@ -47,10 +47,10 @@ const Projects = () => {
             <span>Recursive Algorithm's</span>
           </div>
           <div className={styles.links}>
-            <a href="http://" target="__blank">
+            <a href="https://github.com/sam-joyce/minesweeper" target="__blank">
               <GrGithub />
             </a>
-            <a href="http://" target="__blank">
+            <a href="https://sam-joyce.github.io/minesweeper/" target="__blank">
               <MdLaunch />
             </a>
           </div>
@@ -68,10 +68,10 @@ const Projects = () => {
             <span>Firebase</span>
           </div>
           <div className={styles.links}>
-            <a href="http://" target="__blank">
+            <a href="https://github.com/sam-joyce/oss" target="__blank">
               <GrGithub />
             </a>
-            <a href="http://" target="__blank">
+            <a href="https://offshore-stainless.web.app/" target="__blank">
               <MdLaunch />
             </a>
           </div>
