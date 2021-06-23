@@ -1,0 +1,49 @@
+@import '../../variables';
+
+header {
+  height: 50px;
+  width: 70%;
+  margin: 20px auto;
+  // border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: $default-font;
+
+  div {
+    width: 30%;
+    height: 100%;
+    line-height: 100%;
+    font-size: $font-L;
+    font-weight: $heading-font-weight;
+    padding-top: 5px;
+  }
+
+  nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: $heading-font-weight;
+
+    a {
+      text-decoration: none;
+      color: black;
+      transition: 0.4s ease;
+      height: 70%;
+      padding: 10px;
+      width: 120px;
+    }
+
+    .contact_btn {
+      text-align: center;
+      border-radius: 15px;
+      border: 3px solid black;
+
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
