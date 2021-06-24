@@ -44,7 +44,7 @@ const Projects = () => {
           <p>I built a copy of the minesweeper game. Users can click squares and are told how many bombs they are "touching". the aim of the game is to click all the squares without a bomb in. Should you click a square with a bomb in... you lose!</p>
           <div className={styles.tech}>
             <span>JavaScript</span>
-            <span>Recursive Algorithm's</span>
+            <span>Recursive Algorithms</span>
           </div>
           <div className={styles.links}>
             <a href="https://github.com/sam-joyce/minesweeper" target="__blank">
@@ -60,12 +60,11 @@ const Projects = () => {
       <div className={styles.project}>
         <div className={styles.project_info}>
           <h3>Offshore Stainless</h3>
-          <p>I built a new website for a local manufacturing company. I completed the build to match a Figma design I creted and showed the client beforehand. The deisgn was modern and also included a CMS so the sales team could post regular updates for customers of the business.</p>
+          <p>I built a new website for a local manufacturing company. I completed the build to match a Figma design I created and presented to the client beforehand. The deisgn was modern and also included a CMS so the sales team could post regular updates for customers of the business.</p>
           <div className={styles.tech}>
             <span>React</span>
             <span>sanity.io</span>
-            <span>Firebase</span>
-            <span>Firebase</span>
+            <span>NoSQL Database</span>
           </div>
           <div className={styles.links}>
             <a href="https://github.com/sam-joyce/oss" target="__blank">

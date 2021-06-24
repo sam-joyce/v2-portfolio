@@ -9,7 +9,7 @@ const Nav = () => {
         <a href="">About Me</a>
         <a href="">Projects</a>
         <a href="">Education</a>
-        <a href="" className={styles.contact_btn}>Contact</a>
+        <a href="tel:07800645405" className={styles.contact_btn}>Contact</a>
       </nav>
     </header>
   );

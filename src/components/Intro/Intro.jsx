@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Intro.module.scss";
 
+import cv from '../../assets/images/SJ-CV.pdf';
+
 const Intro = () => {
   return (
     <section className={styles.intro}>
@@ -12,6 +14,7 @@ const Intro = () => {
       <div className={styles.links}>
         <a href="https://www.linkedin.com/in/sam-joyce-att/" target="__blank">LinkedIn</a>
         <a href="https://github.com/sam-joyce" target="__blank">Github</a>
+        <a href={cv} download="Sam Joyce CV">Resume</a>
       </div>
     </section>
   );
