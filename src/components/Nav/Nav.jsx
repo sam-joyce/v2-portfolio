@@ -1,17 +1,29 @@
-import React from "react";
-import styles from "./Nav.module.scss";
+import React, { useState } from "react";
+import "./Nav.scss";
 
 const Nav = () => {
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(!clicked);
+  }
+
+  const handleRoute = () => {
+    setClicked(false);
+  }
+
   return (
-    <header>
-      <div>SJ | Dev Portfolio</div>
-      <nav>
-        <a href="">About Me</a>
-        <a href="">Projects</a>
-        <a href="">Education</a>
-        <a href="tel:07800645405" className={styles.contact_btn}>Contact</a>
-      </nav>
-    </header>
+    <nav className="nav_items">
+      <h1>SJ | Portfolio</h1>
+      <div className="menu-icon" onClick={handleClick}>
+        <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+      </div>
+      <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
+        <li className="nav-links" onClick={handleRoute}>About Me</li>
+        <li className="nav-links" onClick={handleRoute}>Projects</li>
+        <li className="nav-links" onClick={handleRoute}>Contact</li>
+      </ul>
+    </nav>
   );
 };
 
